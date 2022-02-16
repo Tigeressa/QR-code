@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  max-width: 25rem;
+  background: whitesmoke;
+  position: absolute;
+  top: calc(50% - 20rem);
+  left: calc(50% - 12.5rem);
+  border-radius: 1rem;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+img {
+  width: 95%;
+  max-width: 24rem;
+  height: auto;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+
+.info-div {
+  width: 90%;
+}
+
+.info-div h2 {
+  text-align: center;
+  padding: 0.5rem 0 1rem;
+  line-height: 1.2;
+}
+
+.info-div p {
+  color: rgb(58, 55, 55);
+  margin: auto;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+  line-height: 1.3;
+}
